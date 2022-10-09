@@ -38,7 +38,9 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:fitsSystemWindows">false</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
 
+    <style name="CustomizationTheme.NoActionBar.CustomizationPicker" parent="CustomizationTheme.NoActionBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowDisablePreview">true</item>
         <item name="snackbarStyle">@style/SnackbarMargin</item>
